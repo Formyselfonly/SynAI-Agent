@@ -1,0 +1,28 @@
+
+{
+  "emo_room": [
+    {
+      "person": "女朋友",
+      "relation": "伴侣",
+      "event": "因为加班争吵",
+      "emotion": "焦虑",
+      "timestamp": "2025-05-29"
+    }
+  ],
+  "preference_room": {
+    "style_preferences": [
+      {
+        "type": "回应风格",
+        "preference": "喜欢被鼓励",
+        "evidence": "用户表达出喜欢鼓励性语言",
+        "timestamp": "2025-05-25"
+      }
+    ],
+    "language_preferences": [],
+    "interaction_preferences": []
+  },
+  "dialogue_room": [
+    "我最近跟女朋友吵架了，她总是因为我加班而生气",
+    "我今天仍然感觉压力很大"
+  ]
+}
