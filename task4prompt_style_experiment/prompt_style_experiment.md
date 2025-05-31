@@ -160,7 +160,7 @@ AI output:Awesome—go enjoy it! Moving your body is the best reset. You’re ma
 
 当然，后面我会用LangChain实现，用PromptTemplate即可，这样迁移起来又快又方便
 
-说白了，Prompt结构不变，语气变，风格变，用户画像变，场景变
+说白了，Prompt结构不变，用户画像变->场景变->语气变，风格变，
 
 我们以前的Prompt=A:xxx+B:xxx+C:xxx+D:xxx，现在还是A:xxx+B:xxx+C:xxx+D:xxx
 只不过中间的xxx变了，这个就是结构化Prompt的好处
@@ -215,7 +215,8 @@ Very very  very demo级别的五种场景的System Prompt用于说明应该怎�
 我发现一个启发就是评估回答质量的好坏很重要
 
 1.我虽然心理学书看过不少，但是毕竟不是专业的
-这个需要各位同事给点意见，帮我快速能够评估心理学AI回复质量，或者Quick_Start资源我下去看看。
+这个需要各位同事给点意见，包含意见，哪些做的好哪些做的坏，
+帮我快速能够评估心理学AI回复质量，或者Quick_Start资源我下去看看。
 
 2.我评估太主观了，我觉得好，但是不一定用户觉额好，对于生成回答评估指标是很重要的
 这个可以参考我的PromptEval，不过我得自己先明白评估指标才能搞一个CheckAgent出来

@@ -87,6 +87,14 @@ agent_architecture_note.md
 A：温柔共情型（鼓励、安慰） 
 B：目标导向型（直接建议、任务激励） 
 
+```python
+这里我在Part1 Memory_Room里面已经有过设计,不是通过多个不同Agent实现,而是一个Agent可以迁移风格,通过Sytem_Prompt,对应Preference_Room.
+
+为什么这样做？因为一个用户，他需要的对话风格是随着他的状态改变而改变的，不是一成不变的
+```
+
+
+
 ### 要求： 
 
 每个风格设计Prompt结构 
